@@ -1,0 +1,162 @@
+#opcion-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.titulo-opcion-footer {
+    font-size: 20px;
+    line-height: 20px;
+    color: #525252;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+.contenido-opcion-footer {
+    padding-bottom: 20px;
+}
+
+.contenido-opcion-footer p a {
+    margin-top: 8px;
+    letter-spacing: 2px;
+    color: #7e7e7e;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+
+/*form*/
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    padding-bottom: 16px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-control {
+    border: none;
+}
+
+.boton {
+    padding: 0px 0px 0px 0px;
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 0px 2px 2px 0px;
+    line-height: 13px;
+}
+
+.boton-celeste {
+    background-color: #6ab1bf;
+    border-width: 0px;
+    border-color: #6ab1bf;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #fff;
+    padding: 15px 30px !important;
+    width: 100%;
+}
+
+.socio,
+.also {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.socio h3,
+.also h3 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #525252;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+}
+
+.icono-also,
+.icono-socio {
+    margin: 0px 20px 0px 0px;
+    color: #7e7e7e;
+    cursor: pointer;
+}
+
+.icono-also img,
+.icono-socio img {
+    width: 20px;
+}
+
+
+/*
+--------------------------------------
+TERMINOS(la parte con fondo de imagen)
+--------------------------------------
+*/
+
+#terminos-footer {
+    background-color: #6ab1bf !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.terminos-footer-texto {
+    justify-content: center;
+}
+
+.terminos-footer-texto p {
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.terminos-footer-tarjetas {
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.terminos-footer-tarjetas img {
+    width: 60%;
+}
+
+@media(max-width: 1199px) {
+    .terminos-footer-texto,
+    .terminos-footer-tarjetas {
+        text-align: center;
+    }
+    .terminos-footer-tarjetas img {
+        width: 30%;
+        padding-bottom: 20px;
+    }
+}
